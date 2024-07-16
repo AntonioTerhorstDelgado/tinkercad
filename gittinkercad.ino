@@ -6,7 +6,8 @@ pinMode(led, OUTPUT);
 
 void loop() {
   // put your main code here, to run repeatedly:
-while(true){
-  Srial.println("já estamos na 7º semana");
-}
+digitalWrite(led, true);
+delay(1000);
+digitalWrite(led, false);
+delay(1000);
 }
